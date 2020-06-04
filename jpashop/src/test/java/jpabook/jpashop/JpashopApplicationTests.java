@@ -11,6 +11,7 @@ public class JpashopApplicationTests {
 
 	@Test
 	public void contextLoads() {
+
 	}
 
 }
