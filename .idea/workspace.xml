@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b363db6c-13a2-407d-be98-5c4c04af1750" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Spring_Boot_JPA.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\git\SpringBoot_JPA\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1d7Sy5WOVDn2XjhkQq4laS4Hgzb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b363db6c-13a2-407d-be98-5c4c04af1750" name="Default Changelist" comment="" />
+      <created>1591774889795</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591774889795</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1079" y="275" key="FileChooserDialogImpl" timestamp="1591774945894">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1079" y="275" key="FileChooserDialogImpl/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1591774945894" />
+    <state x="678" y="142" key="new project wizard" timestamp="1591774971946">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="678" y="142" key="new project wizard/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1591774971946" />
+  </component>
+</project>
