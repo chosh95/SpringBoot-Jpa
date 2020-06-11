@@ -21,7 +21,7 @@
 <!--            &lt;!&ndash; JPA 표준에 맞춘 새로운 키 생성 전략 사용 &ndash;&gt;-->
 <!--            <property name="hibernate.id.new_generator_mappings" value="true"/>-->
 <!--            &lt;!&ndash; 애플리케이션 실행 시점에 데이터베이스 테이블 자동 생성 &ndash;&gt;-->
-<!--            <property name="hibernate.hbm2ddl.auto" value="create"/>-->
+            <property name="hibernate.hbm2ddl.auto" value="create"/>
         </properties>
     </persistence-unit>
 </persistence>

@@ -1,4 +1,4 @@
-package hellojpa;
+package jpabook.jpashop;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -6,8 +6,9 @@ import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
 
 public class JpaMain {
+
     public static void main(String[] args){
-        EntityManagerFactory emf = Persistence.createEntityManagerFactory("hello");
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("test1");
 
         EntityManager em = emf.createEntityManager();
 
@@ -16,11 +17,8 @@ public class JpaMain {
 
         try {
 
-            Member member = new Member();
-            em.persist(member);
-            //이떄 db에 저장된다.
-            tx.commit();
 
+            tx.commit();
         } catch(Exception e){
             tx.rollback();
         } finally {
