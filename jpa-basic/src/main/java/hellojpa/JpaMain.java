@@ -15,10 +15,22 @@ public class JpaMain {
         tx.begin();
 
         try {
-            Member member1 = em.find(Member.class, 1L);
-            member1.setName("HelloJPA");
+
+            //비영속 상태
+            Member member1 = new Member(150L,"A");
+            Member member2 = new Member(160L,"B");
+
+            //영속 상태
+            em.persist(member1);
+            em.persist(member2);
+
+            Member member3 = em.find(Member.class, 150L);
+            System.out.println(member1.getId() + " " + member3.getId());
+
+            System.out.println(member1.getName());
+            //이떄 db에 저장된다.
             tx.commit();
-            System.out.println(member1.getId() + member1.getName());
+
         } catch(Exception e){
             tx.rollback();
         } finally {
