@@ -1,4 +1,4 @@
-package jpabook.jpashoprepeat;
+package jpabook.jpashoprepeat.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
