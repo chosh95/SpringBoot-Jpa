@@ -26,7 +26,6 @@ public class MemberService {
 
     private void validateMember(Member member){
         List<Member> memberList = memberRepository.findByName(member.getName());
-        System.out.println(member.getId());
         if(!memberList.isEmpty()){
             throw new IllegalStateException("이미 존재하는 회원입니다.");
         }
