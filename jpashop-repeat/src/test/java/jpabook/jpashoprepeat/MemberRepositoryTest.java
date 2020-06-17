@@ -24,13 +24,13 @@ public class MemberRepositoryTest {
     public void testName() throws Exception{
         // given 특정 값이 주어질 때
         Member member = new Member();
-        member.setUsername("kim");
+        member.setName("Kim");
         // when 어떤 이벤트가 발생했을 때
         Long saveId = memberRepository.save(member);
-        Member member1 = memberRepository.find(saveId);
+        Member member1 = memberRepository.findOne(saveId);
         //then 그에 대한 결과를 보장해라.
         Assertions.assertThat(member1.getId()).isEqualTo(saveId);
-        Assertions.assertThat(member1.getUsername()).isEqualTo(member.getUsername());
+        Assertions.assertThat(member1.getName()).isEqualTo(member.getName());
         Assertions.assertThat(member1).isEqualTo(member);
     }
 }
