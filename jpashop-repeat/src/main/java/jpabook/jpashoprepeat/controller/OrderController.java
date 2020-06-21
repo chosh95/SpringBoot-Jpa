@@ -23,16 +23,17 @@ public class OrderController {
     private final MemberService memberService;
 
     @GetMapping("/order")
-    public String order(Model model){
+    public String order(Model model) {
 
         List<Member> members = memberService.findAll();
         List<Item> items = itemService.findAll();
 
-        model.addAttribute("items",items);
-        model.addAttribute("members",members);
+        model.addAttribute("items", items);
+        model.addAttribute("members", members);
 
         return "order/orderForm";
     }
+    
 
     @PostMapping("/order")
     public String order(@RequestParam("memberId") Long memberId,
